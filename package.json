@@ -1,0 +1,20 @@
+{
+  "name": "article",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vuepress dev docs --temp .temp",
+    "docs:build": "vuepress build docs",
+    "d": "bash deploy.sh"
+  },
+  "author": "shulongcc",
+  "license": "ISC",
+  "devDependencies": {
+    "@vuepress/plugin-back-to-top": "^1.8.2",
+    "vuepress": "^1.8.2"
+  },
+  "dependencies": {
+    "vuepress-sidebar-atuo": "^1.0.4"
+  }
+}
